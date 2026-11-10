@@ -24,9 +24,9 @@
 
 基于 Isaacson 授权传记、Stanford 演讲、Lost Interview、D Conference 系列、<br>
 Make Something Wonderful 等 30+ 一手来源深度调研，<br>
-提炼 6 个核心心智模型、8 条决策启发式和完整的表达DNA。
+提炼 7 个招式、5 个心智模型、21 张案例卡和 6 条常见误读。
 
-[看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [调研来源](#调研来源)
+[看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [验证记录](#验证记录) · [调研来源](#调研来源)
 
 </div>
 
@@ -120,7 +120,7 @@ Make Something Wonderful 等 30+ 一手来源深度调研，<br>
 
 > 完整的6轮实战对话记录在 [`examples/`](examples/) 目录。
 
-这不是ChatGPT套了个乔布斯面具。每段回应都在运用Jobs的具体心智模型——「聚焦即说不」「端到端控制」「死亡过滤器」「不问用户要什么」。它不复读语录，它用Jobs的认知框架分析你的问题。
+这不是ChatGPT套了个乔布斯面具。上面是 v1 时期的对话。每段回应都在运用Jobs的具体心智模型——「聚焦即说不」「端到端控制」「死亡过滤器」。它不复读语录，它用Jobs的认知框架分析你的问题。
 
 ---
 
@@ -172,77 +172,69 @@ git clone https://github.com/alchaincyf/steve-jobs-skill <对应路径>
 
 ## 蒸馏了什么
 
-### 6个心智模型
+v2 的目标不是「说话像乔布斯」，是让模型答出它本来答不出、答不准的东西。
 
-| 模型 | 一句话 | 来源 |
-|------|--------|------|
-| **聚焦即说不** | 聚焦不是对要做的事说Yes，是对其他一百个好主意说No | WWDC 1997、回归后砍掉90%产品线 |
-| **端到端控制** | 真正认真对待软件的人，应该自己做硬件 | Alan Kay引用、Mac→iPod→iPhone一脉相承 |
-| **连点成线** | 人生无法前瞻规划，只能回溯理解 | Stanford 2005、书法课→Mac字体 |
-| **死亡过滤器** | 如果今天是最后一天，你还会做今天要做的事吗？ | Stanford 2005、每日镜前自问 |
-| **现实扭曲力场** | 通过让人相信不可能的目标，让它变成可能 | Bud Tribble 1981命名、Mac/iPhone开发周期 |
-| **技术×人文** | 技术必须与人文结合，才能让人心灵歌唱 | iPad 2发布会2011、Edwin Land影响 |
+### 怎么评一个产品
 
-### 8条决策启发式
+单独一节，六步：先看到实物 → 让你用一句话说它是什么 → 走一遍核心动作数步数 → 分清蛋糕和糖霜 → 先砍再改 → 看整件东西。交付时按功能、设计、交互三栏给可照做的方案，只排三件优先事项。
 
-1. 先做减法（350→10个产品，iPhone干掉实体键盘）
-2. 不问用户要什么（替他们想好）
-3. A Player自我增强（小团队碾压大团队）
-4. 看不见的地方也要完美（柜子背面用好木头）
-5. 一句话定义（iPod = 1,000 songs in your pocket）
-6. 不在乎对错，在乎做对（App Store 180度大转弯）
-7. 把问题升维（不在对方框架里辩论）
-8. 用死亡做过滤
+### 7个招式（遇到某类问题，他具体怎么做）
 
-### 表达DNA
+画个格子，只留三四样 · 从用的人那头倒着画 · 做出实物来，每周看一遍 · 不爱它，就按重置键 · 自己去谈 · 当面说这不够好，并且说清为什么 · 出了事，自己署名讲清楚
 
-- **词汇**：insanely great / revolutionary / magical / shit / bozo — 只有两档，没有中间地带
-- **句式**：短句为主，三的法则，先headline后展开
-- **节奏**：戏剧性停顿 → 渐进升级 → One More Thing
-- **类比**：Bicycle for the mind、墨粉脑袋、电话vs电报
-- **确定性**：极度确定，没有hedging language
+### 5个心智模型
 
-### 4对内在张力
+聚焦是对好主意说不 · 对整件东西负责 · 内容不是流程 · 点子和产品之间隔着手艺 · 我爱不爱它，以及人会死
 
-这不是脸谱化的「偏执狂天才」。Skill保留了Jobs的矛盾：
+### 21张案例卡，9张是失败或改口
 
-- 暴君 vs 导师
-- 直觉 vs 数据（直觉也让他延误了癌症手术）
-- 封闭 vs 开放（App Store的180度转弯）
-- 禅修 vs 暴脾气
+1985 年离开 Apple、Pixar、四格产品线、Apple Store、iPhone 玻璃、App Store 改口、MobileMe 等，每张有年份、处境、他怎么做、后来怎样、出处。另有 13 段带出处的原话。
+
+### 6条常见误读
+
+| 大家以为 | 其实 |
+|---|---|
+| 他不听用户，从不做调研 | 他反对的是让用户设计下一个产品；四格是「去问客户要什么」得来的 |
+| 他说话没有「我觉得」，东西只分 amazing 和 shit | 那是发布会现场；访谈逐字稿里满口 I think、sort of |
+| 他认定的事谁也改不了 | 他改得很快：第三方应用四个月改口，店面布局十分钟 |
+| 「现实扭曲力场」是可以学的管理手段 | 故事被讲大了，当事人说那番话没起多大作用 |
+| Pixar 是他的远见和耐心 | 他看错了它是什么，中间想卖没卖成 |
+| 「350 个产品砍到 10 个」「18 个月做出 iPhone」 | 前一个数字查不到出处，iPhone 从立项到上市约两年半 |
+
+### 4处他自己没想清楚的事
+
+反对流程，又靠流程 · 说只想做好产品，又在打一场战争 · 知道批评不该伤人的信心，又常当众羞辱人 · 把事交给最懂的人，又什么都要插一手
+
+---
+
+## 验证记录
+
+三臂盲评（新版、旧版、不装 Skill），Sonnet 作答，独立会话评分：
+
+| 测试 | 新版 | 旧版 v1 | 不装 Skill |
+|---|---|---|---|
+| 任务题两道，第一轮（满分 20） | 16 | 13 | 13 |
+| 任务题两道，第二轮 | 16 | 12 | 12 |
+| 封存题四道，第一轮（满分 8） | 4 | 7 | 7 |
+| 封存题四道，第二轮 | 7 | 7 | 6 |
+
+第一轮封存题新版输了：它把模型本来记得的往事讲成了「按思路推的」。改了运行纪律后第二轮打平。样本小：一个模型、两道任务题。完整记录和局限见 [`FIDELITY.md`](FIDELITY.md)。
 
 ---
 
 ## 调研来源
 
-6个调研文件，共2497行，全部在 [`references/research/`](references/research/) 目录：
+底稿全部在 [`references/research/`](references/research/)：调研前的先验快照 `00-prior.md`、六路底稿 `01`–`06`、升级时的补搜与旧底稿勘误 `07-upgrade-2026-11.md`、封存件 `holdout.md`、验证的题目与原始答卷 `validation-2026-11-09/`。
 
-| 文件 | 内容 | 行数 |
-|------|------|------|
-| `01-writings.md` | 著作与系统思考（Stanford演讲、传记、公开信） | 359 |
-| `02-conversations.md` | 长对话与即兴思考（Lost Interview、D Conference） | 489 |
-| `03-expression-dna.md` | 表达风格DNA（Keynote修辞分析、邮件风格、RDF机制） | 444 |
-| `04-external-views.md` | 他者视角（Ive/Cook/Wozniak/Gates等评价 + 系统性批评） | 464 |
-| `05-decisions.md` | 重大决策分析（15个决策的背景/逻辑/结果/反思） | 452 |
-| `06-timeline.md` | 完整人生时间线（1955-2011 + 关系图谱） | 289 |
-
-### 一手来源
-
-Stanford Commencement 2005 · Make Something Wonderful (2023) · The Lost Interview (1995) · D Conference 系列 (D3/D5/D8) · WWDC Keynotes 1997-2011 · Thoughts on Music/Flash · iPhone Keynote 2007 · Playboy Interview 1985
-
-### 二手来源
-
-Walter Isaacson《Steve Jobs》· Brent Schlender《Becoming Steve Jobs》· Andy Hertzfeld / Folklore.org · Carmine Gallo《The Presentation Secrets of Steve Jobs》· HBR领导力案例
-
-信息源已排除知乎/微信公众号/百度百科。
+一手来源以 Stanford 2005 演讲、The Lost Interview、D Conference 系列、Fortune 2008 访谈、发布会原片逐字稿为主；信息源已排除知乎/微信公众号/百度百科。
 
 ---
 
 ## 这个Skill是怎么造出来的
 
-由 [女娲.skill](https://github.com/alchaincyf/nuwa-skill) 自动生成。
+由 [女娲.skill](https://github.com/alchaincyf/nuwa-skill) v2 生成（从 v1 升级，旧版在本仓库的 `v1.0.0` 标签）。
 
-女娲的工作流程：输入一个名字 → 6个Agent并行调研（著作/对话/表达/批评/决策/时间线）→ 交叉验证提炼心智模型 → 构建SKILL.md → 质量验证（3个已知测试 + 1个边缘测试 + 风格测试）。
+女娲的做法：调研前先写下模型不查资料就知道的内容 → 调研只找推翻它的、比它深的、它没有的 → 提炼招式、心智模型、案例卡和常见误读 → 独立 agent 盲测，带 Skill 和不带 Skill 各答一遍。
 
 想蒸馏其他人？安装女娲：
 
@@ -259,17 +251,14 @@ npx skills add alchaincyf/nuwa-skill
 ```
 steve-jobs-skill/
 ├── README.md
-├── SKILL.md                              # 可直接安装使用
+├── SKILL.md                    # 可直接安装使用
+├── FIDELITY.md                 # 验证记录
 ├── references/
-│   └── research/                         # 6个调研文件（2497行）
-│       ├── 01-writings.md
-│       ├── 02-conversations.md
-│       ├── 03-expression-dna.md
-│       ├── 04-external-views.md
-│       ├── 05-decisions.md
-│       └── 06-timeline.md
+│   ├── casebook.md             # 21 张案例卡
+│   ├── voice.md                # 带出处的原话
+│   └── research/               # 调研底稿、封存件、验证答卷
 └── examples/
-    └── demo-conversation-2026-04-05.md   # 实战对话记录
+    └── demo-conversation-2026-04-05.md   # 实战对话记录（v1 时期）
 ```
 
 ---
