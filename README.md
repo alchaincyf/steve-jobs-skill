@@ -157,7 +157,7 @@ git clone https://github.com/alchaincyf/steve-jobs-skill <对应路径>
 
 ### 方式三：作为参考资料使用
 
-即使 runtime 不支持 Agent Skills 自动加载，你也可以把 `SKILL.md` 的内容粘贴进对话——它本质就是一份 markdown + YAML frontmatter。
+即使 runtime 不支持 Agent Skills 自动加载，你也可以把 `SKILL.md` 的内容粘贴进对话——它本质就是一份 markdown + YAML frontmatter。此方式只提供 `SKILL.md` 正文；如果某项用途需要 `references/` 中的辅助文件，请一并提供相应文件，或改用完整安装方式。
 
 ### 使用
 
