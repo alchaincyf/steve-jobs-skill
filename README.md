@@ -143,11 +143,13 @@ npx skills add alchaincyf/steve-jobs-skill
 
 | Runtime | 安装路径 |
 |---|---|
-| Claude Code | `~/.claude/skills/steve-jobs-skill/` |
-| Codex CLI | `~/.codex/skills/steve-jobs-skill/` |
-| Cursor | `~/.cursor/skills/steve-jobs-skill/` |
-| OpenClaw | `~/.openclaw/workspace/skills/steve-jobs-skill/` |
+| Claude Code | `~/.claude/skills/steve-jobs-perspective/` |
+| Codex CLI | `~/.codex/skills/steve-jobs-perspective/` |
+| Cursor | `~/.cursor/skills/steve-jobs-perspective/` |
+| OpenClaw | `~/.openclaw/workspace/skills/steve-jobs-perspective/` |
 | Hermes Agent | 跑该 runtime 的 install 脚本或 clone 到其 skills 目录 |
+
+手动安装时，目录名必须与 `SKILL.md` frontmatter 的 `name` 一致：`steve-jobs-perspective`。仓库地址仍是 `alchaincyf/steve-jobs-skill`。
 
 ```bash
 git clone https://github.com/alchaincyf/steve-jobs-skill <对应路径>
